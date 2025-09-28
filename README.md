@@ -1,20 +1,39 @@
 # Simple Cloud Storage
 
 A beginner-friendly, full-stack personal cloud storage project inspired by Google Drive.  
-This project uses **React** for the frontend and **Node.js/Express** for the backend.  
-I built this as a learning project and plan to experiment with AI features in the future.
+Frontend uses React, backend uses Node.js and Express.
 
----
-
-## ✨ Features
+## Features
 
 - User registration & login (basic authentication)
 - Upload files from your computer
 - List and download uploaded files
-- Clean, simple interface (great for beginners)
-- Folder structure separates backend and frontend
+- Clean, simple interface
+
+## Folder Structure
+
+- `/backend` - Node.js/Express server code
+- `/frontend` - React frontend code
+
+## Running the Backend Server
+
+1. Open a terminal and navigate to the backend folder:
+2. Install dependencies:
+--npm install
+3. Start the server:
+--npm start
+Or if you have nodemon installed:
+
+The backend server will start running, typically on port 5000 (check your `index.js` for exact port).
+
+## Using the Frontend
+
+You can run the frontend locally or use the deployed site:  
+[https://next-cloud-sm1w.vercel.app/](https://next-cloud-sm1w.vercel.app/)
 
 ---
 
-## 🗂️ Site link :
-https://next-cloud-sm1w.vercel.app/
+For future experiments, AI features can be integrated into this setup.
+
+---
+
